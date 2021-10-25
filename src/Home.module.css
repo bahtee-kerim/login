@@ -1,0 +1,35 @@
+.home h1 {
+  text-align: center;
+  color: gainsboro;
+}
+
+.home input {
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.home button {
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 6px;
+  padding: 1rem;
+  color: blue;
+  font-weight: bold;
+}
+
+.home button:disabled {
+  background-color: gainsboro;
+  color: red;
+  border: 5px solid red;
+  opacity: 0.7;
+}
+
+.home {
+  border: 1px solid black;
+  border-radius: 20px;
+}

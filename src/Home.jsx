@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <div className={h.home}>
-    <h1>ВХОД</h1>
+    <h1>LOGIN</h1>
     <form onSubmit={(e) => handleSubmit(e)}>
 
       <div>
@@ -33,7 +33,7 @@ function Home() {
           setName(e.target.value)
         }} />
       </div>
-        
+
       <div>
         <input 
         value={password} 
@@ -44,8 +44,8 @@ function Home() {
       
       <div>
         {name === 'developer21' && password === '123456' ? 
-        <button type="submit">ВОЙТИ</button> : 
-        <button  disabled type="submit">ВОЙТИ</button>}
+        <button type="submit">OK</button> : 
+        <button  disabled type="submit">OK</button>}
       </div>
       
     </form>

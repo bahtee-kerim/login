@@ -1,7 +1,9 @@
+import './App.css';
 import Profile from "./Profile";
 import Home from "./Home";
 import { useSelector } from "react-redux";
 import { selectName } from "./app/reduxSlice";
+
 
 function App() {
 
