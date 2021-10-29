@@ -8,14 +8,11 @@ export const reduxSlice = createSlice({
   reducers: {
     login: (state, action) => {
       state.name = action.payload;
-    },
-    logout: (state) => {
-      state.name = ''
     }
   }
 })
 
-export const {login, logout} = reduxSlice.actions;
+export const {login} = reduxSlice.actions;
 
 export const selectName = (state) => state.name.name;
 

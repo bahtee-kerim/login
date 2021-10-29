@@ -1,6 +1,6 @@
 import './App.css';
-import Profile from "./Profile";
 import Home from "./Home";
+import Profile from './Profile';
 import { useSelector } from "react-redux";
 import { selectName } from "./app/reduxSlice";
 
@@ -11,12 +11,12 @@ function App() {
 
   return (
   
-    <div className="App">
-      {user.name === 'developer21' && user.password === '123456' ?
-      <Profile/> : <Home/>} 
+    <div className="app">
+      {user.name === 'developer21' && user.password === '123456' ? 
+      <Profile/> : <Home/>}
     </div>
   
   );
 }
-
+ 
 export default App;
